@@ -133,9 +133,6 @@ button:hover a {
 svg {
   width: 20%;
 }
-.logo {
-  width: 30%;
-}
 .nav-home{
   display: flex;
   justify-content: space-between;
@@ -173,9 +170,6 @@ footer {
   background-color: var(--color-secundario);
   padding: 20px;
   align-items: center;
-}
-.logo-footer {
-  width: 35%;
 }
 .enlaces-footer {
   display: flex;
