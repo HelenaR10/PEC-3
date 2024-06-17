@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>presentacion</title>
-    <meta name="description" content="Página presentacion deL blog de Billie Eilish">
+    <title>Presentación</title>
+    <meta name="description" content="Página presentación del blog de Billie Eilish">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"></noscript></head>
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"></noscript>
+    <style>
+        @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap');
+        }
+    </style>
+</head>
 <body>
     <include src="src/header.html"></include>
     <main>
@@ -27,9 +37,13 @@
                 <p>Ya seas un fanático devoto o simplemente estés descubriendo el talento de <strong>Billie Eilish</strong>, esperamos que encuentres esta experiencia informativa y entretenida.</p>
             </div>
         </div>
-        
     </main>
     <include src="src/footer.html"></include>
     <script async src="app.js"></script>
+    <script>
+        document.addEventListener('scroll', function(event) {
+            // Código del evento
+        }, { passive: true });
+    </script>
 </body>
 </html>
